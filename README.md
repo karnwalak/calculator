@@ -8,7 +8,10 @@ After this command:-
 add this inside your provider array of config/app.php
 
 
-  'providers' => ServiceProvider::defaultProviders()->merge([
+  'providers' => 
+  
+  ServiceProvider::defaultProviders()->merge([
+
         <!-- Your other code -->
         Karnwalak\Calculator\CalculatorServiceProvider::class
     ])->toArray(),
