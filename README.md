@@ -9,13 +9,6 @@ add this inside your provider array of config/app.php
 
 
   'providers' => ServiceProvider::defaultProviders()->merge([
-        /*
-         * Package Service Providers...
-         */
-
-        /*
-         * Application Service Providers...
-         */
         <!-- Your other code -->
         Karnwalak\Calculator\CalculatorServiceProvider::class
     ])->toArray(),
