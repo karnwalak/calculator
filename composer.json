@@ -1,0 +1,18 @@
+{
+    "name": "karnwalak/calculator",
+    "description": "This is calculator package for testing",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Karnwalak\\Calculator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akshay",
+            "email" : "karnwalakshay7@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
